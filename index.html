@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>초심자용 타이머</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="timer-container">
+      <h1>⏱️ 타이머</h1>
+      <div class="inputs">
+        <input type="number" id="hour" placeholder="00" min="0" /> :
+        <input type="number" id="min" placeholder="00" min="0" max="59" /> :
+        <input type="number" id="sec" placeholder="00" min="0" max="59" />
+      </div>
+
+      <div class="controls">
+        <button id="startBtn">시작 (Start)</button>
+        <button id="pauseBtn">일시정지 (Pause)</button>
+        <button id="resetBtn">초기화 (Reset)</button>
+      </div>
+    </div>
+
+    <script src="./javascript.js"></script>
+  </body>
+</html>
